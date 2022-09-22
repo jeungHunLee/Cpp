@@ -7,7 +7,7 @@ int add(int a, int b) {    //parameter로 두 수를 전달 받아 합을 반환
     return sum;
 }
 
-void sub(int a, int b);    //함수 원형만 선언
+void sub(int a, int b);    //함수 프로토타입 선언
 
 int main() {
     int a, b;
