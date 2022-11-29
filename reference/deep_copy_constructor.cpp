@@ -16,7 +16,7 @@ public:
 Person::Person(int id, const char* name) {    //일반 생성자 구현
     this->id = id;
     int len = strlen(name);
-    this->name = new char [len + 1];
+    this->name = new char [len + 1];    //this->name을 위한 공간 할당
     strcpy(this->name, name);
 }
 
